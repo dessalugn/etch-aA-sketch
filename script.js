@@ -17,7 +17,7 @@ function createDivContet(length, type) {
     var container = document.createElement('div');
     container.id = 'container';
     container.className = 'container';
-    var body = document.getElementsByTagName('body');
+    var body = document.getElementsByClassName('qube-container');
     body[0].appendChild(container);
     for (var i = 0; i < length; i++) {
         var main_container = document.createElement('div');
